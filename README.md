@@ -10,3 +10,7 @@ Conditional segmentation using external class indicators
 Easily scalable to any number of classes
 
 Designed for volumetric data (e.g., medical imaging)
+###Architecture
+DenseBlock3D: Implements a dense connection block for 3D volumes.
+
+UNet3D_Dense_Cond: Full encoder-decoder structure with skip connections and conditional input support.
