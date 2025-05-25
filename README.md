@@ -16,3 +16,5 @@ DenseBlock3D: Implements a dense connection block for 3D volumes.
 UNet3D_Dense_Cond: Full encoder-decoder structure with skip connections and conditional input support.
 ###Conditional Segmentation
 The model leverages a conditioning value (cond_values) for each class. It appends a constant tensor (with the class-specific value) to the input at each stage of the network, guiding the segmentation process for the selected class.
+### Installation
+pip install tensorflow
