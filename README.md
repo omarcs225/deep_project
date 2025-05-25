@@ -53,7 +53,6 @@ To run the test script and see the model output, use:
 ```bash
 python MultiClass\ Segemention\ from\ Single\ Class\ TenserFlow.py
 Output shape: (1, 64, 128, 128, 1)
----
 
 ## 🛠️ Results Comparison
 | Model                           | Avg. Dice Score | Num. of Models | Parameters | Class Conditioning | Notes                        |
