@@ -22,13 +22,13 @@ pip install tensorflow
 from your_model_file import UNet3D_Dense_Cond
 import tensorflow as tf
 
-# Initialize model
+### Initialize model
 model = UNet3D_Dense_Cond(in_channels=1, num_classes=4, cond_values=[0.2, 0.4, 0.6, 0.8])
 
-# Input tensor shape: [batch, depth, height, width, channels]
+### Input tensor shape: [batch, depth, height, width, channels]
 input_tensor = tf.random.normal([1, 64, 128, 128, 1])
 
-# Forward pass for class index 2
+### Forward pass for class index 2
 output = model(input_tensor, class_idx=2)
 
 print("Output shape:", output.shape)
